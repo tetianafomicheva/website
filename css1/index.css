@@ -7,11 +7,12 @@
 }
  .h1
  {
-  background-color: blue;
+  
   font-size: 40px;
   font-family: "Times New Roman", Times, Sans-serif;
   font-style: italic;
   font-weight: bold;
+  background-color: blue;
   
 }
 {
