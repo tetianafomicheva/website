@@ -1,24 +1,44 @@
-.img {
+body {
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    min-width: 240px;
+}
+
+.header-bar {
     display: inline-block;
-    margin: 1px;
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
 }
 nav {
   
   background-color: aqua;
+  
 }
 nav ul li {
   display: inline-block;
-  background-color: aqua;
-  font-size:18px;
-  font-family: 'Bungee', cursive;
-  font-weight: bold;
-  text-decoration: none;
-  font-style: normal;
-  list-style: none;
-  margin: 5px;
-  padding: 5px;
-  position: inherit;
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+  
+  
 }
+nav a {
+     display: inline-block;
+     font-family:'Bungee', cursive;
+     font-size:18px;
+     text-transform: uppercase;
+     text-decoration: none;
+     text-align: center;
+     color: black;
+     padding: 10px;
+     max-width: 100%;
+}
+
  .use-border-box {
   background-color: rgb(255, 218, 80);
   width: 200px;
