@@ -14,9 +14,9 @@ body {
     height: auto;
     max-height: 200px;
 }
-nav {
+#navigation {
   
-  background-color: aqua;
+  background-color: #3f51b5;
   
 }
 nav ul li {
@@ -38,19 +38,25 @@ nav a {
      padding: 20px;
      max-width: 100%;
 }
+nav {
+   background-color:#9fa8da; 
+}
 aside {
 	float: left;
 	width: 250px;
+
 }
 section {
 	margin-left: 250px;
 	padding-bottom: 50px;
+	padding-top: 20px;
 	width: 720px;
 }
 .aside-menu li {
 	font-weight: 300;
 	list-style-type: square;
 	border-top: 1px solid #e7e7e7;
+	padding-top: 20px;
 }
 
 .aside-menu li:first-child {
@@ -58,11 +64,11 @@ section {
 }
 
 .aside-menu li .active {
-	color: #29c5e6;
+	color:#7986cb;
 }
 
 .aside-menu a {
-	color: #8f8f8f;
+	color: #7986cb;
 }
 aside > h2 {
 	background: #29c5e6;
@@ -80,33 +86,104 @@ aside > p {
 }
 blockquote {
 	margin: 0;
-	background: #29c5e6;
+	background: #e8eaf6;
 	padding: 10px 20px;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
 }
 
-blockquote p {
-	color: #fff;
+blockquote cite {
+	color: black;
+	font-family:'Bungee', cursive;
 	font-style: italic;
-	font-size: 33px;
+	font-size: 30px;
 	margin: 0;
 }
 
-blockquote cite {
+blockquote p {
 	display: block;
-	font-size: 20px;
+	font-size: 18px;
 	font-style: normal;
 	color: #1d8ea6;
 	margin: 0;
-	text-align: right;
+	
+}
+blockquote h2 form {
+    float:right;
+}
+footer {
+	background: #7e7e7e;
+	color: #dbdbdb;
+	font-size: 11px;
 }
 
+#footer {
+	max-width: 1000px;
+	margin: auto;
+	padding: 10px 0;
+	height: 90px;
+}
+#mail {
+	float: left;
+	width: 300px;
+}
 
+#mail p {
+	padding-right: 15px;
+}
+#social {
+	float: left;
+	margin-left: 20px;
+	width: 130px;
+}
 
+.social-icon {
+	width: 30px;
+	height: 30px;
+	background: url(../images/social.png) no-repeat;
+	display: inline-block;
+	margin-right: 10px;
+}
 
+.social-icon-small  {
+	width: 16px;
+	height: 16px;
+	background: url(../images/social-small.png) no-repeat;
+	display: inline-block;
+	margin: 5px 6px 0 0;
+}
 
+.twitter {
+	background-position: 0 0;
+}
 
+.facebook {
+	background-position: -30px 0;
+}
+
+.google-plus {
+	background-position: -60px 0;
+}
+
+.vimeo {
+	background-position: 0 0;
+}
+
+.youtube {
+	background-position: -16px 0;
+}
+
+.flickr {
+	background-position: -32px 0;
+}
+
+.instagram {
+	background-position: -48px 0;
+}
+
+.rss {
+	background-position: -64px 0;
+}
 
  
   background-color: rgb(255, 218, 80);
