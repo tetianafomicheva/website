@@ -1,5 +1,5 @@
 body {
-    background-repeat: repeat-y;
+    
     background-size: 100%;
     background-attachment: fixed;
     width: 100%;
@@ -43,32 +43,24 @@ nav {
 }
 aside {
 	float: left;
-	width: 250px;
+	width: 304px;
+	height: 900px;
 
 }
 section {
-	margin-left: 250px;
-	padding-bottom: 50px;
+	margin-left: 305px;
 	padding-top: 20px;
-	width: 720px;
-}
-.aside-menu li {
-	font-weight: 300;
-	list-style-type: square;
-	border-top: 1px solid #e7e7e7;
-	padding-top: 20px;
+	width: 665px;
+	height: 900px;
 }
 
-.aside-menu li:first-child {
-	border: none;
-}
 
-.aside-menu li .active {
-	color:#7986cb;
-}
-
-.aside-menu a {
-	color: #7986cb;
+.aside iframe {
+	border: 0;
+	width=300;
+	height=150;
+	frameborder=0;
+	scrolling=no;
 }
 aside > h2 {
 	background: #29c5e6;
@@ -102,32 +94,35 @@ blockquote cite {
 
 blockquote p {
 	display: block;
-	font-size: 18px;
+	font-size: 16px;
 	font-style: normal;
 	color: #1d8ea6;
 	margin: 0;
+	line-height:18px;
 	
 }
 blockquote h2 form {
     float:right;
+    background-color:#c5cae9;
+    font-size:14px;
+  
+    
 }
 #Comment {
     display:block;
     float:right;
+    padding: 5px;
 }
 footer {
 	background: #7e7e7e;
 	color: #dbdbdb;
 	font-size: 14px;
-    max-width: 100%;
-	margin: auto;
-	padding: 2px;
-	height: 90px;
+    max-width: 1000px;
+	margin: 0 auto ;
+	padding: 20px;
+	
 }
 
-
-
-  }
 #mail {
 	float: left;
 	width: 200px;
@@ -147,7 +142,7 @@ footer {
 
 
  
- 
+ background-repeat: repeat-y;
 
 
  
