@@ -1,5 +1,5 @@
 body {
-     background-repeat: repeat-y;
+    background-repeat: repeat-y;
     background-size: 100%;
     background-attachment: fixed;
     width: 100%;
@@ -17,6 +17,7 @@ body {
 #navigation {
   
   background-color: #3f51b5;
+
   
 }
 nav ul li {
@@ -24,9 +25,14 @@ nav ul li {
   list-style-type: none;
   padding: 0;
   margin:0;
-  
-  
+
 }
+ li {
+   line-height: 1.5em;
+   transition: .2s all;
+ 
+ }
+
 nav a {
      display: inline-block;
      font-family:'Bungee', cursive;
@@ -37,9 +43,12 @@ nav a {
      color: black;
      padding: 20px;
      max-width: 100%;
+    
+    
 }
 nav {
    background-color:#9fa8da; 
+    
 }
 aside {
 	float: left;
@@ -61,7 +70,7 @@ section {
 	height=150;
    
 }
-aside > h2 {
+aside > h1 {
 	background: #29c5e6;
 	font: 14px 'Oswald', sans-serif;
 	color: #fff;
@@ -115,30 +124,13 @@ blockquote h2 form {
 footer {
 	background: #5c6bc0;
 	color: #dbdbdb;
-	font-size: 14px;
+	font-size: 16px;
     max-width: 1000px;
 	margin: 0 auto ;
 	padding: 20px;
+	text-align: center;
 	
 }
-
-#mail {
-	float: left;
-	width: 200px;
-}
-
-#mail p {
-	padding-right: 10px;
-}
-
-
-
-#social {
-	float: left;
-	margin-left: 20px;
-	width: 130px;
-}
-
 
  
 

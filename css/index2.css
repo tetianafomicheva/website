@@ -117,28 +117,12 @@ blockquote h2 form {
 footer {
 	background: #5c6bc0;
 	color: #dbdbdb;
-	font-size: 14px;
+	font-size: 16px;
     max-width: 1000px;
 	margin: 0 auto ;
 	padding: 20px;
+
 	
-}
-
-#mail {
-	float: left;
-	width: 200px;
-}
-
-#mail p {
-	padding-right: 10px;
-}
-
-
-
-#social {
-	float: left;
-	margin-left: 20px;
-	width: 130px;
 }
 
 
