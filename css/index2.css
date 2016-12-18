@@ -59,9 +59,8 @@ section {
 .aside iframe {
 	border: 0;
 	width=300;
-	height=150;
-	frameborder=0;
-	scrolling=no;
+	height=300;
+	
 }
 aside > h2 {
 	background: #29c5e6;
@@ -99,7 +98,7 @@ blockquote p {
 	font-style: normal;
 	color: #1d8ea6;
 	margin: 0;
-	line-height:18px;
+	line-height:30px;
 	
 }
 blockquote h2 form {
@@ -110,17 +109,20 @@ blockquote h2 form {
     
 }
 #Comment {
-    display:block;
-    float:right;
-    padding: 5px;
+     padding: 15px;
+     transition-duration:3s;
+     transition-timing-function: ease-in;
+ 
 }
 footer {
 	background: #5c6bc0;
 	color: #dbdbdb;
-	font-size: 16px;
-    max-width: 1000px;
+	font-size: 24px;
+    max-width: 940px;
 	margin: 0 auto ;
-	padding: 20px;
+	padding: 10px;
+	text-align:center;
+
 
 	
 }
