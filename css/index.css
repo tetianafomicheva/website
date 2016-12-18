@@ -104,7 +104,7 @@ blockquote p {
 	font-style: normal;
 	color: #1d8ea6;
 	margin: 0;
-	line-height:20px;
+	line-height:18px;
 	
 }
 blockquote h2 form {
@@ -122,8 +122,9 @@ footer {
 	color: #dbdbdb;
 	font-size: 24px;
     max-width: 940px;
+    height:100px;
 	margin: 0 auto ;
-	padding: 15px;
+	padding-left: 17px;
 	text-align: center;
 	
 }
