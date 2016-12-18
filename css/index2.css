@@ -110,7 +110,7 @@ blockquote h2 form {
 }
 #Comment {
      padding: 15px;
-     transition-duration:3s;
+     transition-duration:5s;
      transition-timing-function: ease-in;
  
 }
